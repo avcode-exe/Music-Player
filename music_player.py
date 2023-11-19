@@ -2,9 +2,9 @@ import pygame
 from pygame import mixer
 import keyboard
 
-fileName = "Owl City  Carly Rae Jepsen  Good Time Lyrics"
-fileNameExtension = f"{fileName}.mp3"
-path = f"D:\\CC\\Tom\\music\\{fileNameExtension}"
+fileName = "Audio File Name"
+fileNameExtension = f"{fileName}.{Audio File Extension}"
+path = f"path\\to\\the\\folder\\of\\the\\audio\\file\\{fileNameExtension}"
 
 # Initialize the mixer module
 mixer.init()
