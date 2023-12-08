@@ -1,10 +1,10 @@
-import pygame
 from pygame import mixer
 import keyboard
 
 fileName = "Audio File Name"
-fileNameExtension = f"{fileName}.{Audio File Extension}"
-path = f"path\\to\\the\\folder\\of\\the\\audio\\file\\{fileNameExtension}"
+fileExtension = "mp3"
+fileNameExtension = fileName + "." + fileExtension
+path = "path\\to\\the\\folder\\of\\the\\audio\\file\\" + fileNameExtension
 
 # Initialize the mixer module
 mixer.init()
